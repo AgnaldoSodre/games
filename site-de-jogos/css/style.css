@@ -1,0 +1,428 @@
+
+/*default*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'kanit';
+}
+
+html body{
+    background-color: #151d27;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container2{
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container3{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*finalizando default*/
+
+/*header logo */
+
+header{
+    height: 120px;
+    width: 100%;
+    background-color:#151d27;
+
+}
+
+.logo{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+.logo-img{
+    height: 100px;
+    width: 80%;
+    background-image: url(../imagens/jogos-de-video.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+
+}
+/*header centro*/
+.center{
+    width: 73%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.solo{
+    width: 200px;
+    text-align: center;
+    padding-top: 60px;
+    display: inline-block; 
+}
+
+.solo img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.solo #seta,#seta1,#seta2,#seta3{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: 1px;
+}
+
+.solo a{
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ccc;
+}
+
+
+.solo:hover{
+    border-top: 2px solid #006699;
+    padding-top: 58px;
+}
+
+.solo:hover a{
+    color:  #006699;
+}
+
+.conteudo{
+    height: 180px;
+    width: 200px;
+    background-color:#ffffff;
+    margin-top: -2px;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    z-index: 3;
+}
+
+#conteudo1{
+    height: 360px;
+}
+
+.conteudo .focus{
+    width: 75%;
+    margin: 12% auto;
+    border-radius: 4px;
+}
+
+.conteudo .focus:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.conteudo .focus a{
+    color:#b4b4b4;
+}
+
+.conteudo .focus:hover a{
+    color:#0f84bf;
+}
+
+/*header conta*/
+
+.conta{
+    width: 12%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.conta .login-img{
+    background-image: url(../imagens/do-utilizador.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin: 25px auto 5px auto;
+}
+
+.conta a{
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ccc;
+}
+
+
+/*banner*/
+
+section.banner{
+    width: 100%;
+    height: 750px;
+}
+
+.bg::after{
+	content: "";
+	position: absolute;
+    left: 0;
+	height: 85%;
+	width: 100%;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7) 35%, transparent 65%);
+}
+
+section .bg{
+    width: 100%;
+    height: 780px;
+    background-image: url(../imagens/900888.jpg);background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 70%;
+}
+
+section .bg .info{
+    float: left;
+    margin: 10% 10%;
+    position: absolute;
+    z-index: 1;
+}
+
+section .bg .info h1{
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+section .bg .info h2{
+    font-size: 90px;
+    display: inline-block;
+    color: rgb(255, 0, 0);
+}
+
+section .bg .info p{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+
+section .bg .info button{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 45px;
+    border: 1px solid rgb(0, 153, 204);;
+    background-color: #006699;
+    cursor: pointer;
+}
+
+section .bg .info button:hover{
+   
+    border: 1px solid rgb(0, 153, 204);
+    background-color:  rgb(0, 153, 204);
+}
+
+
+/*section biblioteca*/
+
+.biblioteca{
+    height: 900px;
+}
+
+.wrapper-single{
+	float: left;
+	width: calc(100% / 3);
+    padding-top: 100px;
+}
+
+
+.img-single{
+	width: 90%;
+	padding-top:60%;
+	background-color: #ccc;
+	border:8px solid white;
+    border-radius: 15px;
+    margin: 60px 8%;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*section bg dos jogos*/
+
+.backgrounds{
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+    margin: 130px auto 260px auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.7);
+}
+
+.mural input{
+    display: none;
+}
+
+.slide img{
+    height: 100%;
+    width: 100%;
+}
+
+.mural{
+    display: flex;
+    height: 100%;
+    width: 2000%;
+}
+
+.slide{
+    width: 5%;
+    transition: .5s;
+}
+
+#imagem1:checked ~ .sl1{
+    margin-left: 0%;
+}
+
+#imagem2:checked ~ .sl1{
+    margin-left: -5%;
+}
+
+#imagem3:checked ~ .sl1{
+    margin-left: -10%;
+}
+
+#imagem4:checked ~ .sl1{
+    margin-left: -15%;
+}
+
+#imagem5:checked ~ .sl1{
+    margin-left: -20%;
+}
+
+#imagem6:checked ~ .sl1{
+    margin-left: -25%;
+}
+
+#imagem7:checked ~ .sl1{
+    margin-left: -30%;
+}
+
+#imagem8:checked ~ .sl1{
+    margin-left: -35%;
+}
+
+#imagem9:checked ~ .sl1{
+    margin-left: -40%;
+}
+
+#imagem10:checked ~ .sl1{
+    margin-left: -45%;
+}
+
+#imagem11:checked ~ .sl1{
+    margin-left: -50%;
+}
+
+#imagem12:checked ~ .sl1{
+    margin-left: -55%;
+}
+
+#imagem13:checked ~ .sl1{
+    margin-left: -60%;
+}
+
+#imagem14:checked ~ .sl1{
+    margin-left: -65%;
+}
+
+#imagem15:checked ~ .sl1{
+    margin-left: -70%;
+}
+
+#imagem16:checked ~ .sl1{
+    margin-left: -75%;
+}
+
+#imagem17:checked ~ .sl1{
+    margin-left: -80%;
+}
+
+#imagem18:checked ~ .sl1{
+    margin-left: -85%;
+}
+
+#imagem19:checked ~ .sl1{
+    margin-left: -90%;
+}
+
+#imagem20:checked ~ .sl1{
+    margin-left: -95%;
+}
+
+/*bg interativo*/
+
+section.bg-interativo{
+    width: 100%;
+    height: 800px;
+    margin-top: -140px;
+}
+
+
+section .jogo-info .jogo-single{
+    display: none;
+}
+
+section .jogo-info .selected{
+    display: block;
+}
+
+section .jogo-single .bg-img{
+    width: 100%;
+    height: 740px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+section .jogo-single .bg-img .descricao{
+    width: 50%;
+    margin-left: 70px;
+    padding-top: 150px;
+}
+
+section .jogo-single h1{
+    font-size: 36px;
+    color: #000000;
+    background-color: rgba(202, 202, 202, 0.3);
+    border-radius: 15px 15px 0 0;
+}
+
+section .jogo-single p{
+    font-size: 24px;
+    color: #000000;
+    background-color: rgba(202, 202, 202, 0.3);
+    border-radius: 0 0 15px 15px;
+}
+
+section .jogo-info .botoes{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+}
+
+section .jogo-info button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 0 2%;
+}
+
+section .jogo-info .selecionado{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
